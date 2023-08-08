@@ -1,0 +1,242 @@
+/* -----------------------------------
+
+colors
+
+ ----------------------------------- */
+
+//Primary
+$pink: hsl(353, 87%, 61%);
+$tomato: hsl(4, 100%, 67%);
+
+$tomato-opacity: hsla(4, 100%, 67%, 0.217);
+//neutral
+$dark-slate-grey: hsl(234, 29%, 20%);
+$charcoal-grey: hsl(235, 18%, 26%);
+$grey: hsl(231, 7%, 60%);
+$white: hsl(0, 0%, 100%);
+
+
+@mixin transition-background {
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+/* ------------end------------------*/
+
+
+/* -----------------------------------
+
+fonts
+
+ ----------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto:wght@400;700&display=swap');
+
+$regular-font: 'Roboto', 'Poppins', Arial, sans-serif;
+$bold-font: "Roboto-Regular", Helvetica, Arial, sans-serif;
+
+@mixin regular-font {
+    font-family: $regular-font;
+    font-size: 16px;
+  }
+@mixin bold-font {
+    font-family: $bold-font;
+    font-weight: 700;
+  }
+  
+/* ------------end------------------*/
+
+  
+body {
+    @include regular-font;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: $bold-font;
+    color: $dark-slate-grey;
+    font-size: 3em;
+}
+
+
+.label-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    @include bold-font;
+}
+
+label {
+    color: $dark-slate-grey;
+}
+
+.error-message {
+    color: $tomato;
+    margin: 0;
+}
+
+input[type="email"] {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid $grey;
+    &:focus-visible {
+        border: 1px solid $white;
+    }
+    &:focus {
+        outline: 1px solid $dark-slate-grey;
+    }
+}
+
+.errorInput {
+    background-color: $tomato-opacity;
+    color: $tomato;
+    border: 1px solid $tomato;
+    &:focus-visible, &:focus {
+        border: 1px solid $tomato;
+    }
+}
+
+.btn {
+    @include bold-font;
+    color: $white;
+    margin-top: 10px;
+    padding: 20px 10px;
+    cursor: pointer;
+    text-align:center;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    white-space: inherit;
+
+    //animation
+    background-size: 300% 100%;
+    background-image: linear-gradient(to right,$dark-slate-grey, $dark-slate-grey, $pink);
+    @include transition-background;
+    
+    &:hover {
+        background-position: 100% 0;
+        background-image: linear-gradient(to right, $dark-slate-grey, $tomato, $pink);
+        @include transition-background;
+    }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 8px 0;
+    }
+}
+
+.general-block {
+    display: flex;
+    background-color: $white;
+}
+
+.display-desktop, .display-mobile {
+    display: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.email-value {
+    @include bold-font;
+}
+
+.attribution {
+    font-size: 12px;
+}
+
+a { 
+    color: $dark-slate-grey; 
+}
+
+.success-block {
+    display: none;
+}
+
+@media screen and (max-width: 640px) {
+    .display-mobile {
+        display: block;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .sign-up-block {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .block_text {
+        margin: 20px 8%;
+    }
+
+    .success-block_text {
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        img {
+            max-width: 70px;
+        }
+    }
+
+    .attribution {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+  }
+
+@media screen and (min-width: 640px) {
+    .display-desktop {
+        display: block;
+    }
+
+    body {
+        background-color: $dark-slate-grey; 
+        display: grid;
+        place-items: center;
+    }
+
+    .general-block {
+        border-radius: 25px;
+        padding: 25px;
+        margin: auto;
+        gap: 20px;
+        &.success-block {
+            max-width: 450px;
+            padding: 10% 12%;
+        }
+    }
+
+    .attribution {
+        position: absolute;
+        bottom: 10px;
+        color: $white;
+        a {
+            color: $white;
+        }
+    }
+
+    .sign-up-block_text {
+        padding: 20px;
+        margin: auto;
+    }
+}

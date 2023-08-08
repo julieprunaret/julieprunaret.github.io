@@ -1,0 +1,194 @@
+/* -----------------------------------
+
+colors
+
+ ----------------------------------- */
+/* ------------end------------------*/
+/* -----------------------------------
+
+fonts
+
+ ----------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto:wght@400;700&display=swap");
+/* ------------end------------------*/
+body {
+  font-family: "Roboto", "Poppins", Arial, sans-serif;
+  font-size: 16px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: "Roboto-Regular", Helvetica, Arial, sans-serif;
+  color: hsl(234, 29%, 20%);
+  font-size: 3em;
+}
+
+.label-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-family: "Roboto-Regular", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+label {
+  color: hsl(234, 29%, 20%);
+}
+
+.error-message {
+  color: hsl(4, 100%, 67%);
+  margin: 0;
+}
+
+input[type=email] {
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid hsl(231, 7%, 60%);
+}
+input[type=email]:focus-visible {
+  border: 1px solid hsl(0, 0%, 100%);
+}
+input[type=email]:focus {
+  outline: 1px solid hsl(234, 29%, 20%);
+}
+
+.errorInput {
+  background-color: hsla(4, 100%, 67%, 0.217);
+  color: hsl(4, 100%, 67%);
+  border: 1px solid hsl(4, 100%, 67%);
+}
+.errorInput:focus-visible, .errorInput:focus {
+  border: 1px solid hsl(4, 100%, 67%);
+}
+
+.btn {
+  font-family: "Roboto-Regular", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  margin-top: 10px;
+  padding: 20px 10px;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  white-space: inherit;
+  background-size: 300% 100%;
+  background-image: linear-gradient(to right, hsl(234, 29%, 20%), hsl(234, 29%, 20%), hsl(353, 87%, 61%));
+  transition: all 0.4s ease-in-out;
+}
+.btn:hover {
+  background-position: 100% 0;
+  background-image: linear-gradient(to right, hsl(234, 29%, 20%), hsl(4, 100%, 67%), hsl(353, 87%, 61%));
+  transition: all 0.4s ease-in-out;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+}
+
+.general-block {
+  display: flex;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.display-desktop, .display-mobile {
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.email-value {
+  font-family: "Roboto-Regular", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+.attribution {
+  font-size: 12px;
+}
+
+a {
+  color: hsl(234, 29%, 20%);
+}
+
+.success-block {
+  display: none;
+}
+
+@media screen and (max-width: 640px) {
+  .display-mobile {
+    display: block;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .sign-up-block {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .block_text {
+    margin: 20px 8%;
+  }
+  .success-block_text {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .success-block_text img {
+    max-width: 70px;
+  }
+  .attribution {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+}
+@media screen and (min-width: 640px) {
+  .display-desktop {
+    display: block;
+  }
+  body {
+    background-color: hsl(234, 29%, 20%);
+    display: grid;
+    place-items: center;
+  }
+  .general-block {
+    border-radius: 25px;
+    padding: 25px;
+    margin: auto;
+    gap: 20px;
+  }
+  .general-block.success-block {
+    max-width: 450px;
+    padding: 10% 12%;
+  }
+  .attribution {
+    position: absolute;
+    bottom: 10px;
+    color: hsl(0, 0%, 100%);
+  }
+  .attribution a {
+    color: hsl(0, 0%, 100%);
+  }
+  .sign-up-block_text {
+    padding: 20px;
+    margin: auto;
+  }
+}/*# sourceMappingURL=style.css.map */
