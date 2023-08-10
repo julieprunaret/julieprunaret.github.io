@@ -1,0 +1,30 @@
+body {
+    min-height: 100vh;
+    overflow: hidden;
+    cursor: crosshair;
+}
+
+.bubble {
+    position: absolute;
+    display: block;
+    border-radius: 200px;
+    top: 100%;
+    animation: anim 8s forwards;
+    opacity: 0;
+    background: rgba(255, 166, 0, 0.6);
+    filter: hue-rotate(0deg);
+}
+
+@keyframes anim {
+    to {
+        top: -30%;
+        left: var(--left);
+        opacity: 1;
+        filter: hue-rotate(720deg);
+    }
+}
+
+.counter {
+    font-size: 100px;
+    text-align: center;
+}

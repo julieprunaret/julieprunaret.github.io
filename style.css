@@ -1,0 +1,41 @@
+body {
+    background: rgb(238,174,202);
+    background: linear-gradient(155deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.814);
+    text-decoration: none; /* no underline */
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #6fa1da;
+    margin: 10px;
+}
+
+.box {
+    width: 200px;
+    height: 180px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.capture {
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
