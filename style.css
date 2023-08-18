@@ -1,17 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Raleway:wght@300;500;700&family=Roboto:wght@400;700&display=swap');
+
 body {
     background: rgb(238,174,202);
-    background: linear-gradient(155deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+    background: linear-gradient(155deg, rgb(196, 152, 160) 0%, rgb(6, 19, 87) 100%); 
     min-height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif, 'Raleway', sans-serif, 'Roboto', sans-serif;
 }
 
 a {
     color: rgba(0, 0, 0, 0.814);
     text-decoration: none; /* no underline */
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 50px;
+    color: white;
+    text-align: center;
 }
 
 h2 {
@@ -28,9 +33,20 @@ p {
 
 .box {
     width: 200px;
-    height: 180px;
+    height: 250px;
     border-radius: 20px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.832);
+    margin: 10px;
+    flex-shrink: 0;
+}
+
+.boxContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 1300px;
+    margin: 70px auto 0;
 }
 
 .capture {
