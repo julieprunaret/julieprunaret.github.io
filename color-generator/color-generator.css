@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@700&display=swap');
+
+html, body {
+ margin: 0;
+ padding: 0;
+ }
+
+ body {
+    min-height: 100vh;
+    font-family: 'Raleway', sans-serif, 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s linear;
+    background: rgb(255, 196, 189);
+}
+
+ p {
+    background-color: rgb(50, 53, 56);
+    color: white;
+    width: fit-content;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin: 0;
+ }
