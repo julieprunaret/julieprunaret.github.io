@@ -32,7 +32,7 @@ h1 {
 
 .todo-container {
     background: white;
-    padding: 20px;
+    padding: 20px 20px 50px;
     min-width: 30%;
     height: fit-content;
     border-radius: 5px;
