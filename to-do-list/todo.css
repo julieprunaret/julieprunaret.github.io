@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Poppins:wght@200;300&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    background: linear-gradient(#f4ebf3, #e3c6e1);
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+.todo-container {
+    background: white;
+    padding: 20px;
+    min-width: 30%;
+    height: fit-content;
+    border-radius: 5px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.074);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    background: #f4ebf3;
+    border: 1px solid rgb(221, 221, 221);
+    padding: 5px;
+    border-radius: 50px;
+    min-width: 80%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.task {
+    margin-top: 10px;
+    font-style: italic;
+    padding: 10px 5px;
+    border: 1px dashed rgb(58, 73, 74);
+    color: rgb(58, 73, 74);
+    cursor: pointer;
+}
+
+.task::before {
+    content: "\2610";
+    margin-right: 10px;
+    font-style: normal;
+}
+
+.task:hover {
+    color: rgb(55, 174, 142);
+    border: 1px dashed rgb(55, 174, 142);
+}
+
+.task:hover::before {
+    content: "\2611";
+}
+
+.task.done::before {
+    content: "\2611";
+    margin-right: 10px;
+    font-style: normal;
+    color: rgb(55, 174, 142);
+}
+
+.task.done {
+    color: rgb(55, 174, 142);
+    border: 1px dashed rgb(55, 174, 142);
+}
+
+.task.done:hover {
+    border: 1px dashed salmon;
+    color: salmon;
+}
+
+.task.done:hover::before {
+    content: "\2612";
+    color: salmon;
+}
+
+.guide {
+    font-size: 12px;
+}
+
+
+

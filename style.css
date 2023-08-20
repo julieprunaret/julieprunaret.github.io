@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Raleway:wght@300;500;700&family=Roboto:wght@400;700&display=swap');
 
 body {
+    margin: 0;
     background: rgb(238,174,202);
     background: linear-gradient(155deg, rgb(196, 152, 160) 0%, rgb(6, 19, 87) 100%); 
     min-height: 100vh;
     font-family: 'Poppins', sans-serif, 'Raleway', sans-serif, 'Roboto', sans-serif;
+}
+
+.page {
+    padding-top: 50px;
 }
 
 a {
@@ -17,6 +22,7 @@ h1 {
     font-size: 50px;
     color: white;
     text-align: center;
+    margin-top: 0;
 }
 
 h2 {

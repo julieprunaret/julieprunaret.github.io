@@ -11,5 +11,5 @@ const getColor = () => {
     colorContainer.innerText= color;
 }
 
-setInterval(getColor, 3000)
+setInterval(getColor, 2000)
 

@@ -19,6 +19,7 @@ html, body {
     background-color: rgb(50, 53, 56);
     color: white;
     width: fit-content;
+    width: -moz-fit-content;
     padding: 15px 20px;
     border-radius: 5px;
     margin: 0;
