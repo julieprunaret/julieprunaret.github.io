@@ -64,6 +64,7 @@ button {
   border-radius: 50px;
   width: fit-content;
   width: -moz-fit-content;
+  color: black;
   cursor: pointer;
 }
 button :hover {
