@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="101" viewBox="0 0 100 101">
+  <defs>
+    <clipPath id="clip-dwarf">
+      <rect width="100" height="101"/>
+    </clipPath>
+  </defs>
+  <g id="dwarf" clip-path="url(#clip-dwarf)">
+    <g id="noun-axe-4277514" transform="translate(0 0.536)">
+      <g id="Groupe_2" data-name="Groupe 2">
+        <rect id="Rectangle_3" data-name="Rectangle 3" width="3.223" height="3.223" transform="translate(14.578 35.458)" fill="#fff"/>
+        <rect id="Rectangle_4" data-name="Rectangle 4" width="3.223" height="3.223" transform="translate(21.025 35.458)" fill="#fff"/>
+        <rect id="Rectangle_5" data-name="Rectangle 5" width="3.223" height="3.223" transform="translate(8.131 35.458)" fill="#fff"/>
+        <rect id="Rectangle_6" data-name="Rectangle 6" width="3.223" height="3.223" transform="translate(11.355 41.905)" fill="#fff"/>
+        <rect id="Rectangle_7" data-name="Rectangle 7" width="3.223" height="3.223" transform="translate(17.802 41.905)" fill="#fff"/>
+        <rect id="Rectangle_8" data-name="Rectangle 8" width="3.223" height="3.223" transform="translate(14.578 48.352)" fill="#fff"/>
+        <rect id="Rectangle_9" data-name="Rectangle 9" width="3.223" height="3.223" transform="translate(46.813 35.458)" fill="#fff"/>
+        <rect id="Rectangle_10" data-name="Rectangle 10" width="3.223" height="3.223" transform="translate(40.366 35.458)" fill="#fff"/>
+        <rect id="Rectangle_11" data-name="Rectangle 11" width="3.223" height="3.223" transform="translate(53.26 35.458)" fill="#fff"/>
+        <rect id="Rectangle_12" data-name="Rectangle 12" width="3.223" height="3.223" transform="translate(50.036 41.905)" fill="#fff"/>
+        <rect id="Rectangle_13" data-name="Rectangle 13" width="3.223" height="3.223" transform="translate(43.589 41.905)" fill="#fff"/>
+        <rect id="Rectangle_14" data-name="Rectangle 14" width="3.223" height="3.223" transform="translate(46.813 48.352)" fill="#fff"/>
+        <path id="Tracé_3" data-name="Tracé 3" d="M97.047,46.658l-1.633-2.447L94.025,45.6a9.458,9.458,0,0,1-6.642,2.751h-.277a3.227,3.227,0,0,0-3.223-3.223V41.905a3.227,3.227,0,0,0-3.223-3.223H77.436a3.227,3.227,0,0,0-3.223,3.223v3.223a3.227,3.227,0,0,0-3.223,3.223h-.277A9.458,9.458,0,0,1,64.07,45.6L62.68,44.211,61.048,46.66c-.122.185-.232.377-.348.566l3.915-36.538L53.927,0H10.687L0,10.687,5.022,57.571l10.312,3.867A17.742,17.742,0,0,0,.073,78.975V99.927H72.6a4.806,4.806,0,0,0,2.7-.827,3.2,3.2,0,0,0,2.134.827h3.223A3.227,3.227,0,0,0,83.883,96.7V67.693a3.227,3.227,0,0,0,3.223-3.223h.277a9.458,9.458,0,0,1,6.642,2.751l1.389,1.389,1.633-2.448a17.58,17.58,0,0,0,0-19.5ZM77.436,41.905h3.223v3.223H77.436Zm-14.149,7.25a12.708,12.708,0,0,0,7.425,2.421h.277v9.67h-.277a12.708,12.708,0,0,0-7.425,2.421,14.361,14.361,0,0,1,0-14.512ZM62.68,68.61l1.389-1.389a9.458,9.458,0,0,1,6.642-2.751h.277a3.227,3.227,0,0,0,3.223,3.223V84.107a4.781,4.781,0,0,0-1.612-.3H69.1a4.806,4.806,0,0,0-3.418,1.417l-1.807,1.807H58.762l-5.641-5.641,2.266-2.266L48.1,69.414a12.4,12.4,0,0,0-7.556-4.7L58.185,58.1a17.529,17.529,0,0,0,2.862,8.065ZM23.418,64.469l7.14,2.677A12.337,12.337,0,0,0,30.8,86.71L40.516,94l1.46-1.46,4.17,4.168H22.637V64.469Zm16.8,25.272-7.478-5.607A9.133,9.133,0,1,1,45.522,71.348l5.607,7.478Zm9.77,6.118a5.008,5.008,0,0,1-.7-.572l-5.03-5.03,6.586-6.586,5.072,5.072ZM12.022,3.223H52.592L59.039,9.67H33.919V52.52l-1.612,1.612L30.7,52.52V9.67H5.575Zm25.12,19.341H53.26v6.447H37.142V22.564Zm-9.67,6.447H11.355V22.564H27.472Zm-24-16.117H27.47v6.447H8.13V32.235H27.47v21.62l4.835,4.835,4.835-4.835V32.235H56.482V19.341H37.141V12.894H61.135L56.6,55.25l-24.29,9.108L8.017,55.25ZM17.8,64.469h1.612V96.7H9.743V80.587H16.19v-9.67H5.749A14.5,14.5,0,0,1,17.8,64.469ZM3.3,78.975a14.4,14.4,0,0,1,.846-4.835h8.824v3.223H6.519V96.7H3.3ZM72.6,96.7H53.479l5.372-6.447h6.358l2.751-2.751a1.62,1.62,0,0,1,1.139-.472h3.5a1.612,1.612,0,0,1,1.612,1.612v6.447A1.612,1.612,0,0,1,72.6,96.7Zm8.059,0H77.436V67.693h3.223ZM74.212,64.469V48.352h9.67l0,16.117Zm20.6-.8a12.708,12.708,0,0,0-7.425-2.421h-.277v-9.67h.277a12.708,12.708,0,0,0,7.425-2.421,14.361,14.361,0,0,1,0,14.512Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

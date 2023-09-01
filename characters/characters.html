@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOrd</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <div class="header">
+            <img src="./img/dragon.svg" alt="dragon picture" class="dragon">
+            <h1>Imaginarium</h1>
+            <img src="./img/dragon.svg" alt="dragon picture" class="dragon dragon_right">
+        </div>
+        <form action="">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="formName" required>
+            </div>
+            <div>
+                <label for="formFamily">Class</label>
+                <select name="family" id="formFamily" required>
+                    <option value="">--Please choose an option--</option>
+                    <option value="wizard">Wizard</option>
+                    <option value="elf">Elf</option>
+                    <option value="dwarf">Dwarf</option>
+                    <option value="human">human</option>
+                </select>
+            </div>
+            <div>
+                <label for="level">Level</label>
+                <input type="number" id="formLevel" min="0" max="10" required>
+            </div>
+            <button type="submit">Create</button>
+        </form>
+    
+        <div class="card">
+            <button id="storageDelete">Clear characters</button>
+            <ul id="charactersList">
+            </ul>
+        </div>
+    </div>
+
+    <script src="characters.js"></script>
+</body>
+</html>

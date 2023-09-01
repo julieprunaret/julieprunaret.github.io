@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap");
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-family: "Fondamento", cursive;
+  color: white;
+  margin: 20px 0;
+}
+
+body {
+  background-color: rgb(30, 29, 32);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+form {
+  border: 1px dashed white;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 5px;
+}
+form > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+input, select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+}
+
+ul {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.082);
+  border: 1px solid white;
+  color: white;
+}
+
+button {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  width: fit-content;
+  width: -moz-fit-content;
+  cursor: pointer;
+}
+button :hover {
+  opacity: 0.8;
+  transition: 1s;
+}
+
+h3 {
+  margin: 0;
+}
+
+.dragon {
+  width: 50px;
+}
+.dragon_right {
+  transform: scaleX(-1);
+}
+
+.card {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.card img {
+  width: 80px;
+}
+
+.page {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+#storageDelete.hide {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
