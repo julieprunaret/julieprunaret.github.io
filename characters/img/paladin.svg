@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="101" viewBox="0 0 100 101">
+  <defs>
+    <clipPath id="clip-paladin">
+      <rect width="100" height="101"/>
+    </clipPath>
+  </defs>
+  <g id="paladin" clip-path="url(#clip-paladin)">
+    <g id="Groupe_4" data-name="Groupe 4" transform="translate(-0.015)">
+      <rect id="Rectangle_9" data-name="Rectangle 9" width="3.236" height="3.236" transform="translate(14.613 36.271)" fill="#fff"/>
+      <rect id="Rectangle_10" data-name="Rectangle 10" width="3.236" height="3.236" transform="translate(21.085 36.271)" fill="#fff"/>
+      <rect id="Rectangle_11" data-name="Rectangle 11" width="3.236" height="3.236" transform="translate(8.14 36.271)" fill="#fff"/>
+      <rect id="Rectangle_12" data-name="Rectangle 12" width="3.236" height="3.236" transform="translate(11.376 42.744)" fill="#fff"/>
+      <rect id="Rectangle_13" data-name="Rectangle 13" width="3.236" height="3.236" transform="translate(17.849 42.744)" fill="#fff"/>
+      <rect id="Rectangle_14" data-name="Rectangle 14" width="3.236" height="3.236" transform="translate(14.613 49.217)" fill="#fff"/>
+      <rect id="Rectangle_15" data-name="Rectangle 15" width="3.236" height="3.236" transform="translate(46.977 36.271)" fill="#fff"/>
+      <rect id="Rectangle_16" data-name="Rectangle 16" width="3.236" height="3.236" transform="translate(40.504 36.271)" fill="#fff"/>
+      <rect id="Rectangle_17" data-name="Rectangle 17" width="3.236" height="3.236" transform="translate(53.45 36.271)" fill="#fff"/>
+      <rect id="Rectangle_18" data-name="Rectangle 18" width="3.236" height="3.236" transform="translate(50.214 42.744)" fill="#fff"/>
+      <rect id="Rectangle_19" data-name="Rectangle 19" width="3.236" height="3.236" transform="translate(43.741 42.744)" fill="#fff"/>
+      <rect id="Rectangle_20" data-name="Rectangle 20" width="3.236" height="3.236" transform="translate(46.977 49.217)" fill="#fff"/>
+      <path id="Tracé_10" data-name="Tracé 10" d="M97.142,71.872H89.721l4.185-4.185V11.328L82.578,0,71.251,11.328v56.36l4.185,4.185H68.014a3.24,3.24,0,0,0-3.236,3.236v3.236a3.24,3.24,0,0,0,3.236,3.236h9.431v3.531a4.808,4.808,0,0,0-1.814,1.128l-1.814,1.814H58.975L53.311,82.39l2.275-2.275L48.272,70.36a12.461,12.461,0,0,0-7.266-4.66l20.458-7.221,3.364-47.1L54.122.67H10.706L0,11.376l3.364,47.1,11.289,3.984a17.822,17.822,0,0,0-14.6,17.5V101h82.53a4.861,4.861,0,0,0,4.855-4.855V81.581h9.709a3.24,3.24,0,0,0,3.236-3.236V75.108A3.24,3.24,0,0,0,97.142,71.872ZM82.578,61.033l5.24,4.366H77.338Zm8.091,2.529L84.2,58.169V6.195l6.473,6.473ZM80.96,6.195V58.167l-6.473,5.394V12.667ZM76.775,68.635H88.381l-3.236,3.236H80.012ZM56.115,89.771,50.16,96.917a4.923,4.923,0,0,1-.7-.574l-5.05-5.052,6.612-6.612ZM22.966,65.4,30.635,68.1a12.388,12.388,0,0,0,.27,19.624l9.751,7.316,1.466-1.466,4.185,4.185H22.7V65.4Zm22.717,6.9,5.63,7.509-10.96,10.96-7.509-5.631A9.17,9.17,0,1,1,45.683,72.3ZM12.046,3.906H52.78l6.473,6.473H34.031V52.453H30.795V10.379H5.575ZM37.268,23.325H53.45V29.8H37.268V23.325ZM27.558,29.8H11.376V23.325H27.558ZM3.406,13.616H27.558v6.473H8.14V33.034H27.558V52.453a3.24,3.24,0,0,0,3.236,3.236h3.236a3.24,3.24,0,0,0,3.236-3.236V33.034H56.686V20.089H37.268V13.616H61.421L58.384,56.135,32.413,65.3,6.442,56.135ZM17.849,65.4h1.618V97.764H9.758V81.581h6.473V71.872H5.748A14.561,14.561,0,0,1,17.849,65.4ZM3.285,79.963a14.461,14.461,0,0,1,.85-4.855h8.86v3.236H6.521V97.764H3.285v-17.8ZM84.2,96.145a1.62,1.62,0,0,1-1.618,1.618H53.67l5.394-6.473H75.157l2.762-2.762a1.633,1.633,0,0,1,1.144-.474h3.515A1.62,1.62,0,0,1,84.2,89.672v6.473Zm0-11.03a4.8,4.8,0,0,0-1.618-.3h-1.9V81.581H84.2ZM68.014,78.345V75.108H97.142l0,3.236Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>
