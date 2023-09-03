@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* layout */
+
+$mobileSize: 375px;
+
+/* Colors */
+
+//Primary
+$lightCyan: hsl(193, 38%, 86%);
+$neonGreen: hsl(150, 100%, 66%);
+
+//Neutral
+$grayishBlue: hsl(217, 19%, 38%);
+$darkGrayishBlue: hsl(217, 19%, 24%);
+$darkBlue: hsl(218, 23%, 16%);
+
+/* Typography */
+
+$fontSizeQuote: 28px;
+
+// font
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+$font : 'Manrope', sans-serif;
+
+/* generic */
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: $darkBlue;
+    @include center;
+    min-height: 100vh;
+    font-family: $font;
+}
+
+button {
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    transform:translate(-50%, -180%);
+    background-color: $neonGreen;
+    border : 0px;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    @include center;
+    padding: 10px;
+    cursor: pointer;
+    :hover {
+        box-shadow: 0px 0px 20px 10px $neonGreen;
+        transition: 0.2s;
+    }
+    img {
+        width: 18px;
+        height: 18px;
+    }   
+}
+
+.advice-container {
+    position: relative;
+    display: flex;
+    padding: 20px 20px 40px 20px;
+    flex-direction: column;
+    background-color: $darkGrayishBlue;
+    border-radius: 10px;
+    width: 80%;
+    max-width: fit-content;
+    max-width: -moz-fit-content;
+    text-align: center;
+}
+
+.attribution {
+    font-size: 10px;
+    position: absolute;
+    bottom: 10px;
+    color: rgb(125, 125, 125);
+    a {
+        color: rgb(125, 125, 125);
+    }
+}
+
+.advice-number {
+    color: $neonGreen;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.advice-quote {
+    color: white;
+    margin: 30px 0;
+    max-width: 295px;
+}
+
+.advice-illustration {
+    display: flex;
+    justify-content: center;
+
+    .display-desktop {
+        display: none;
+    }
+    
+    .display-mobile {
+        display: block;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    @media screen and (min-width: $mobileSize) {
+        .display-desktop {
+            display: block;
+        }
+        
+        .display-mobile {
+            display: none;
+        }
+    }
+}
+
+

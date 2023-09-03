@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* layout */
+/* Colors */
+/* Typography */
+/* generic */
+body {
+  background-color: hsl(218, 23%, 16%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Manrope", sans-serif;
+}
+
+button {
+  position: absolute;
+  bottom: -50%;
+  left: 50%;
+  transform: translate(-50%, -180%);
+  background-color: hsl(150, 100%, 66%);
+  border: 0px;
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+}
+button :hover {
+  box-shadow: 0px 0px 20px 10px hsl(150, 100%, 66%);
+  transition: 0.2s;
+}
+button img {
+  width: 18px;
+  height: 18px;
+}
+
+.advice-container {
+  position: relative;
+  display: flex;
+  padding: 20px 20px 40px 20px;
+  flex-direction: column;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 10px;
+  width: 80%;
+  max-width: fit-content;
+  max-width: -moz-fit-content;
+  text-align: center;
+}
+
+.attribution {
+  font-size: 10px;
+  position: absolute;
+  bottom: 10px;
+  color: rgb(125, 125, 125);
+}
+.attribution a {
+  color: rgb(125, 125, 125);
+}
+
+.advice-number {
+  color: hsl(150, 100%, 66%);
+  font-size: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.advice-quote {
+  color: white;
+  margin: 30px 0;
+  max-width: 295px;
+}
+
+.advice-illustration {
+  display: flex;
+  justify-content: center;
+}
+.advice-illustration .display-desktop {
+  display: none;
+}
+.advice-illustration .display-mobile {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media screen and (min-width: 375px) {
+  .advice-illustration .display-desktop {
+    display: block;
+  }
+  .advice-illustration .display-mobile {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
