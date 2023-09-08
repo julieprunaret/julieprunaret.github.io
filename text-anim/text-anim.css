@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(108, 77, 195) 0%, rgb(226, 115, 64) 86%);
+  font-family: "Poppins", sans-serif;
+  font-size: 3em;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+  height: 150px;
+}
+.container #bar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 10px;
+  background-color: white;
+  width: 0px;
+  border-radius: 100px;
+  transition: 0.4s ease-in-out;
+}
+.container #letters {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.container #letters p {
+  position: relative;
+}
+.container #letters p.evenLetter {
+  z-index: 1;
+}
+.container #letters p.evenLetter span {
+  top: 0%;
+  left: 50%;
+}
+.container #letters p.oddLetter {
+  z-index: -1;
+}
+.container #letters p.oddLetter span {
+  top: 100%;
+  left: 50%;
+}
+.container #letters p.oddLetter, .container #letters p.evenLetter {
+  transition: 0.5s;
+}
+.container #letters p.oddLetter span, .container #letters p.evenLetter span {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+}
+.container #letters p.oddLetter span.display, .container #letters p.evenLetter span.display {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}/*# sourceMappingURL=text-anim.css.map */

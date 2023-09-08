@@ -73,7 +73,7 @@ const createTab = (array) => {
     list.innerHTML = array.map(
         (character) => {
             return `
-            <li id=${character.id}>
+            <li id=${character.id} draggable="true" data-draggable="item">
                 <img src="./img/${character.family}.svg" alt="picture of ${character.family}" class="picture-card">
                 <h2> ${character.name} </h2>
                 <h3> class : ${character.family} </h3>
