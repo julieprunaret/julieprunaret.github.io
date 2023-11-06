@@ -1,5 +1,5 @@
 # julieprunaret.github.io
 
-You can find here a part of my javascript exercizes
+here you will find all of my latest exercises in vanilla javascript
 
 [<kbd> <br> See online <br> </kbd>](https://julieprunaret.github.io./)
