@@ -1,0 +1,257 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none; /* no underline */
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/static/Inter-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "InterBold";
+  src: url("./assets/fonts/static/Inter-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "InterExtraBold";
+  src: url("./assets/fonts/static/Inter-ExtraBold.ttf") format("truetype");
+}
+body {
+  min-height: 100vh;
+  font-family: "Inter";
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5em;
+  opacity: 0.8;
+}
+
+#page {
+  width: 90%;
+  margin: 50px auto;
+  max-width: 1000px;
+}
+@media screen and (min-width: 780px) {
+  #page {
+    width: 80%;
+  }
+}
+
+h1 {
+  font-family: "InterExtraBold";
+  font-size: 3em;
+}
+
+h2 {
+  font-family: "InterBold";
+  font-size: 2em;
+}
+
+h3 {
+  font-family: "InterBold";
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: rgb(233, 71, 54);
+  color: white;
+  letter-spacing: 3px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(231, 105, 91);
+}
+
+.topContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+@media screen and (min-width: 780px) {
+  .topContainer {
+    flex-direction: row;
+  }
+}
+
+.firstArticle {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.firstArticle .firstArticle-title {
+  margin: 20px 0;
+}
+.firstArticle .firstArticle-textAndbutton button {
+  margin-top: 15px;
+}
+@media screen and (min-width: 780px) {
+  .firstArticle {
+    width: 65%;
+  }
+  .firstArticle .firstArticle-title {
+    width: 50%;
+  }
+  .firstArticle .firstArticle-textAndbutton {
+    width: 50%;
+  }
+}
+
+.quickNews {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+.quickNews h2 {
+  color: rgb(255, 174, 0);
+  margin-bottom: 20px;
+}
+.quickNews ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+@media screen and (min-width: 780px) {
+  .quickNews {
+    width: 35%;
+    margin-top: 0px;
+  }
+}
+
+.articles ul {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.articles ul img {
+  width: 15%;
+  height: 120px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.articles ul li {
+  display: flex;
+  gap: 20px;
+}
+.articles ul li h2 {
+  cursor: pointer;
+  color: rgb(181, 181, 181);
+}
+.articles ul li h2:hover {
+  color: rgb(217, 83, 69);
+  opacity: 1;
+}
+@media screen and (min-width: 780px) {
+  .articles ul {
+    flex-direction: row;
+  }
+  .articles ul img {
+    width: 70px;
+  }
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+.menu .list .menu_icon {
+  display: block;
+}
+.menu .list li {
+  display: none;
+}
+@media screen and (max-width: 780px) {
+  .menu .logo {
+    align-self: flex-start;
+  }
+  .menu .menu_icon {
+    align-self: flex-start;
+    margin-top: 10px;
+  }
+  .menu.open {
+    height: 300px;
+  }
+  .menu.open .list {
+    align-self: end;
+    margin: 30px 30px 50px 30px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .menu.open .list li {
+    display: block;
+  }
+}
+@media screen and (min-width: 780px) {
+  .menu {
+    height: 100px;
+  }
+  .menu .menu_icon {
+    display: none;
+  }
+  .menu .list {
+    display: flex;
+    gap: 20px;
+  }
+  .menu .list li {
+    display: block;
+    cursor: pointer;
+  }
+  .menu .list li:hover {
+    opacity: 0.5;
+  }
+}
+
+.attribution {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 12px;
+}
+.attribution .author {
+  font-family: "InterBold";
+}/*# sourceMappingURL=style.css.map */
