@@ -3,8 +3,8 @@
     "synchro": [
       {
         "id": 1,
-        "id_client": "ALPHA",
-        "id_sync": "HUBSPOT",
+        "id_client": "LOREM",
+        "id_sync": "CARREFOUR",
         "name": "mapping_entreprise",
         "url": "#",
         "statut": 0,
@@ -14,8 +14,8 @@
       },
       {
         "id": 2,
-        "id_client": "ALPHA",
-        "id_sync": "HUBSPOT",
+        "id_client": "LOREM",
+        "id_sync": "CARREFOUR",
         "name": "Tickets",
         "url": "#",
         "statut": 0,
@@ -25,8 +25,8 @@
       },
       {
         "id": 3,
-        "id_client": "ALPHA",
-        "id_sync": "SAGE",
+        "id_client": "LOREM",
+        "id_sync": "BOULANGER",
         "name": "Contrats",
         "url": "#",
         "statut": 0,
@@ -36,8 +36,8 @@
       },
       {
         "id": 4,
-        "id_client": "ALPHA",
-        "id_sync": "HUBSPOT",
+        "id_client": "LOREM",
+        "id_sync": "CARREFOUR",
         "name": "mapping_entreprise",
         "url": "#",
         "statut": 0,
@@ -48,7 +48,7 @@
       {
         "id": 5,
         "id_client": "BETA",
-        "id_sync": "HUBSPOT",
+        "id_sync": "CARREFOUR",
         "name": "Contrat",
         "url": "#",
         "statut": 1,
@@ -59,7 +59,7 @@
       {
         "id": 6,
         "id_client": "BETA",
-        "id_sync": "SALESFORCE",
+        "id_sync": "AUCHAN",
         "name": "Devis",
         "url": "#",
         "statut": 1,
@@ -70,7 +70,7 @@
       {
         "id": 7,
         "id_client": "BETA",
-        "id_sync": "SALESFORCE",
+        "id_sync": "AUCHAN",
         "name": "Formation",
         "url": "#",
         "statut": 1,
